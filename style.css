@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.imagenes , img{
+    height: 20vh;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.texto{
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.texto2{
+    padding-top: 15px;
+}
+
+.texto2 , h4{
+    margin-top: 45px;
+    padding-left: 5px;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+.texto2 , p{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+#cardm{
+    height: 35vh;
+}
+
+
+
+@media screen and (max-width:766px) {
+    .texto2 , h4{
+        margin-top: 25px;
+        padding-left: 5px;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .texto2 , p{
+        font-size: 10px;
+        color: black;
+        font-weight: bold;
+        text-align: justify;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+@media screen and (min-width:767px) and (max-width:1025px) {
+    .imagenes , img{
+        height: 40vh;
+    }
+    
+}
+
+@media screen and (min-width:1026px){
+    .imagenes , img{
+        height: 84vh;
+    }
+}
+
+/*Roberto footer*/
+
+.footer {
+    background-color: #212529ff;
+}
+#lista3 li{
+    text-align: center;
+    display:inline
+}
+a:link {
+    color:#f8f9faff;
+    font-size:x-small;
+}
+a:visited {
+    color:#f8f9faff;
+}
+a:focus {
+    color:#f8f9faff;
+}
+a:hover {
+    color:rgb(19, 19, 226);
+}
+a:active {
+    color:#f8f9faff;
+}
